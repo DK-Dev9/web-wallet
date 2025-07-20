@@ -10,8 +10,8 @@ const SeedPhrase: React.FC = () => {
   };
 
   return (
-    <div className="mb-10">
-      <h2 className="text-2xl font-semibold mb-2">Seed Phrase</h2>
+    <div className="mb-10 w-1/2 m-auto">
+      <h2 className="text-2xl font-semibold">Seed Phrase</h2>
       <p className="mb-4">Generate a new seed phrase to secure your wallet.</p>
       <button
         onClick={generateSeed}
